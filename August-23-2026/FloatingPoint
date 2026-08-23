@@ -1,0 +1,19 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Несколько примеров чисел с плавающей запятой
+	pi := 3.14159
+	temperature := 72.5
+
+	// TODO: Объявите новую переменную типа float64 с именем 'height' и значением 5.9
+	height := 5.9
+		
+	// Вывод существующих переменных
+	fmt.Println("Pi approximately equals:", pi)
+	fmt.Println("The temperature is:", temperature)
+	
+	// TODO: Выведите вашу новую переменную 'height' с описательным сообщением
+	fmt.Println("The height is:", height)
+}
