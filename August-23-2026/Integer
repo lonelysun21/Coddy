@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Создайте здесь свои целочисленные переменные
+	age := 25
+	year := 2023
+	temperature := -5
+	
+	// Выведите переменные на отдельных строках
+	fmt.Println(age)
+	fmt.Println(year)
+	fmt.Println(temperature)
+}
