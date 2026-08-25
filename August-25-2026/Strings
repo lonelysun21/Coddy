@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Эти переменные уже определены для вас
+	firstName := "Alex"
+	lastName := "Smith"
+	
+	// TODO: Create a greeting string variable with the value "Hello, my name is"
+	// Note: Не добавляйте лишних пробелов.
+	greeting := "Hello, my name is"
+	
+	// TODO: Выведите все три строки (greeting, firstName и lastName) на отдельных строках
+	fmt.Println(greeting)
+	fmt.Println(firstName)
+	fmt.Println(lastName)
+}
