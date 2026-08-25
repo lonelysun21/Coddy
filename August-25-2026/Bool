@@ -1,0 +1,19 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Две логические переменные уже определены
+	likesGo := true
+	firstProgram := false
+	
+	// TODO: Создайте логическую переменную с именем 'isLearning' и установите её в значение true
+	isLearning := true
+	// TODO: Создайте логическую переменную с именем 'isExpert' и установите её в значение false
+	isExpert := false
+	// Выведите все логические переменные
+	fmt.Println("Likes Go:", likesGo)
+	fmt.Println("First program:", firstProgram)
+	fmt.Println("Is learning:", isLearning)
+	fmt.Println("Is expert:", isExpert)
+}
