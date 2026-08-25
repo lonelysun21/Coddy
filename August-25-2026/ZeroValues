@@ -1,0 +1,19 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Эти переменные объявлены, но не инициализированы
+	// Go автоматически присвоит им их нулевые значения
+	var number int
+	var decimal float64
+	var isTrue bool
+	var text string
+	
+	// TODO: Выведите каждую переменную, чтобы увидеть её нулевое значение
+	// Подсказка: Используйте fmt.Println() для каждой переменной
+	fmt.Println(number)
+	fmt.Println(decimal)
+	fmt.Println(isTrue)
+	fmt.Println(text)
+}
