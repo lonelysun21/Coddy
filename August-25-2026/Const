@@ -1,0 +1,10 @@
+package main
+
+import "fmt"
+
+func main() {
+	// TODO: Объявите константу с именем maxStudents со значением 30
+	const maxStudents int = 30
+	// Выведите константу
+	fmt.Println("Maximum number of students allowed:", maxStudents)
+}
