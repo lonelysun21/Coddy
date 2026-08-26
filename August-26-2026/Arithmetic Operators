@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Эти переменные уже определены для вас
+	num1 := 5
+	num2 := 7
+	result := 0
+	
+	// TODO: Вычислите (num1 + num2) * 2 и сохраните результат в переменной result
+	result = (num1 + num2) * 2
+	// Это выведет результат
+	fmt.Println("The result is:", result)
+}
