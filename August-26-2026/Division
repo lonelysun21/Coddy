@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Эти числа уже определены для вас
+	number1 := 20.0
+	number2 := 4.0
+	
+	// TODO: Разделите number1 на number2 и сохраните результат в переменной 'result'
+	var result float64
+	result = number1 / number2
+	
+	// Это выведет результат
+	fmt.Println("The result of", number1, "divided by", number2, "is:", result)
+}
