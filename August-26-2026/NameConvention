@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+	// TODO: Исправьте эти имена переменных, чтобы они соответствовали соглашениям об именовании в Go
+	var userName string = "John"
+	var userAge int = 25
+	var isActive bool = true
+	var firstLogin string = "2023-01-15"
+
+	// TODO: Исправьте эти имена переменных, чтобы они соответствовали соглашениям об именовании в Go
+	fmt.Println("User:", userName)
+	fmt.Println("Age:", userAge)
+	fmt.Println("Active:", isActive)
+	fmt.Println("First Login:", firstLogin)
+}
