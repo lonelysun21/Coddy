@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main() {
+  // Определите заданные переменные
+  productName := "Coffee Mug"
+  
+  // TODO: Определите новую целочисленную переменную с именем 'quantity' со значением 5
+  var quantity int = 5
+  // TODO: Print the product name with a label: "Product: Coffee Mug"
+  fmt.Println("Product:", productName)
+  // TODO: Выведите количество с меткой: точный текст из инструкций
+  fmt.Println("Quantity:", quantity)
+}
