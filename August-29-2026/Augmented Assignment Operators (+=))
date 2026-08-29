@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Начальный счет
+	score := 10
+	
+	// TODO: Используйте сокращенную форму присваивания (+=), чтобы увеличить счет на 5
+	score += 5
+	// Вывести итоговый счет
+	fmt.Println("Final score:", score)
+}
