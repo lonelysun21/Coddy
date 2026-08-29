@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Эта переменная уже объявлена
+	favoriteColor := "red"
+	
+	// TODO: Используйте оператор присваивания (=), чтобы изменить favoriteColor на "blue"
+	favoriteColor = "blue"
+	// Это выведет значение favoriteColor
+	fmt.Println("My favorite color is:", favoriteColor)
+}
