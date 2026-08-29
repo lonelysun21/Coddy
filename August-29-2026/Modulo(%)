@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Эти переменные уже определены для вас
+	number := 17
+	divisor := 5
+	
+	// TODO: Вычислите остаток от деления 'number' на 'divisor'
+	// с помощью оператора взятия остатка (%) и сохраните его в переменной 'remainder'
+	var remainder int
+	remainder = number % divisor
+	
+	// Это выведет результат
+	fmt.Println("The remainder when", number, "is divided by", divisor, "is:", remainder)
+}
