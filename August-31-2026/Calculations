@@ -1,0 +1,26 @@
+package main
+
+import "fmt"
+
+func main() {
+  // Данные переменные
+  a := 10
+  b := 3
+  
+  // TODO: Вычислите и сохраните сумму a и b в переменной с именем 'sum'
+  sum := a+b
+  // TODO: Вычислите и сохраните разность (a - b) в переменной с именем 'difference'
+  difference := a-b
+  // TODO: Вычислите и сохраните произведение a и b в переменной с именем 'product'
+  product := a*b
+  // TODO: Вычислите и сохраните результат деления a на b в переменной с именем 'quotient'
+  quotient := a/b
+  // TODO: Вычислите и сохраните остаток от деления a на b в переменной с именем 'remainder'
+  remainder := a%b
+  // Вывод результатов
+  fmt.Println("Sum:", sum)
+  fmt.Println("Difference:", difference)
+  fmt.Println("Product:", product)
+  fmt.Println("Quotient:", quotient)
+  fmt.Println("Remainder:", remainder)
+}
