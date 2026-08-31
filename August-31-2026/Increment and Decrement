@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Начальное значение для нашего счетчика
+	counter := 5
+	
+	// TODO: Увеличьте счетчик дважды, используя оператор ++
+	counter++
+	counter++
+	// TODO: Уменьшите счетчик один раз, используя оператор --
+	counter--
+	// Вывести конечное значение
+	fmt.Println("Final counter value:", counter)
+}
