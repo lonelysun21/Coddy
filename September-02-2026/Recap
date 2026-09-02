@@ -1,0 +1,27 @@
+package main
+
+import "fmt"
+
+func main() {
+  // Данные переменные
+  age := 25
+  score := 85
+  isPremium := true
+  
+  // TODO: Создайте логическую переменную с именем 'isAdult', которая проверяет, что возраст (age) больше или равен 18
+  isAdult := age >= 18
+  // TODO: Создайте логическую переменную с именем 'isPassing', которая проверяет, что балл (score) больше или равен 70
+  isPassing := score >= 70
+  // TODO: Создайте логическую переменную с именем 'isEligible', которая проверяет, является ли человек одновременно совершеннолетним (isAdult) И имеет ли он статус премиум (isPremium)
+  isEligible := isAdult && isPremium
+  // TODO: Создайте логическую переменную с именем 'needsImprovement', которая проверяет, меньше ли балл (score) 70 ИЛИ меньше ли возраст (age) 20
+  needsImprovement := !isPassing || age < 20
+  // TODO: Создайте логическую переменную с именем 'isRejected', которая является ОТРИЦАНИЕМ (противоположностью) переменной isPassing
+  isRejected := !isPassing
+  // Вывод результатов
+  fmt.Println("Is Adult:", isAdult)
+  fmt.Println("Is Passing:", isPassing)
+  fmt.Println("Is Eligible:", isEligible)
+  fmt.Println("Needs Improvement:", needsImprovement)
+  fmt.Println("Is Rejected:", isRejected)
+}
