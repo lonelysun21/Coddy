@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Логическая переменная
+	isRaining := true
+	
+	// TODO: Используйте оператор НЕ (!) для инвертирования значения isRaining
+	// и сохраните результат в переменную ниже
+	result := !isRaining
+	
+	// Вывод исходного и инвертированного значения
+	fmt.Println("Original value:", isRaining)
+	fmt.Println("After using NOT operator:", result)
+}
