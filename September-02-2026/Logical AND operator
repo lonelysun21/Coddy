@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Квалификация кандидата
+	hasExperience := true
+	hasEducation := true
+	
+	// TODO: Используйте логический оператор И (&&), чтобы проверить, есть ли у кандидата
+	// и опыт, И образование, сохраните результат в isQualified
+	isQualified := hasEducation && hasExperience // Замените эту строку своим кодом
+	
+	// Вывести результат
+	fmt.Println("Does the candidate qualify for the job?", isQualified)
+}
