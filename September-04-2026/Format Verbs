@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Эти переменные уже определены для вас
+	age := 25
+	height := 5.9
+	isStudent := true
+	name := "Alex"
+	
+	// TODO: Используйте fmt.Printf, чтобы вывести следующее предложение с правильными глаголами форматирования:
+	// "Name: Alex, Age: 25, Height: 5.900000, Student: true"
+	fmt.Printf("Name: %v, ", name)
+	fmt.Printf("Age: %d, ", age)
+	fmt.Printf("Height: %f, ", height)
+	fmt.Printf("Student: %t", isStudent)
+	// Напишите свой код ниже:
+	
+}
