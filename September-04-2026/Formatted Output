@@ -1,0 +1,22 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Информация о продукте
+	productName := "Wireless Headphones"
+	productPrice := 79.99
+	productInStock := true
+	productID := 12345
+	
+    // TODO: Используйте fmt.Printf() с глаголами форматирования для отображения информации о продукте:
+    // Product: Wireless Headphones (ID: 12345)
+    // Цена: $79.99
+    // В наличии: true
+    fmt.Printf("Product: %s (ID: %d)\n", productName, productID)
+    fmt.Printf("Price: $%.2f\n", productPrice)
+    fmt.Printf("In Stock: %t\n", productInStock)
+    // Подсказка: Используйте %s для строк, %d для целых чисел, %.2f для чисел с плавающей точкой, %t для булевых значений
+    // Не забудьте добавить \n в конце каждой строки для правильного форматирования
+	
+}
