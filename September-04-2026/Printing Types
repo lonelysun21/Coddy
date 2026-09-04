@@ -1,0 +1,25 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Эти переменные уже определены для вас
+	age := 25
+	price := 19.99
+	isAvailable := true
+	productName := "Wireless Headphones"
+	
+	// TODO: Используйте fmt.Printf с %T, чтобы вывести тип переменной 'age'
+	// Вывод должен быть: "The type of age is: int"
+	fmt.Printf("The type of age is: %T\n", age)
+	// TODO: Используйте fmt.Printf с %T, чтобы вывести тип переменной 'price'
+	// Вывод должен быть: "The type of price is: float64"
+	fmt.Printf("The type of price is: %T\n", price)
+	// TODO: Используйте fmt.Printf с %T, чтобы вывести тип переменной 'isAvailable'
+	// Вывод должен быть: "The type of isAvailable is: bool"
+	fmt.Printf("The type of isAvailable is: %T\n", isAvailable)
+	// TODO: Используйте fmt.Printf с %T, чтобы вывести тип переменной 'productName'
+	// Вывод должен быть: "The type of productName is: string"
+	fmt.Printf("The type of productName is: %T\n", productName)
+
+}
