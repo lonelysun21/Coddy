@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Объявить переменную для хранения имени пользователя
+	var name string
+	
+	// Вывести подсказку для пользователя
+	fmt.Print("Enter your name: ")
+	
+	// TODO: Используйте fmt.Scanln() для чтения ввода пользователя в переменную 'name'
+	fmt.Scanln(&name)
+	// Вывести приветствие, используя введенное имя
+	fmt.Printf("Hello, %s! Nice to meet you.", name)
+}
