@@ -1,0 +1,24 @@
+package main
+
+import "fmt"
+
+func main() {
+  // Заданные переменные
+  name := "Gopher"
+  age := 5
+  height := 0.75
+  isActive := true
+
+  // TODO: Используйте fmt.Printf для вывода строки с именем из инструкций, используя переменную name и спецификатор формата %s
+  fmt.Printf("Name: %s\n", name)
+  // TODO: Используйте fmt.Printf для вывода строки с возрастом из инструкций, используя переменную age и спецификатор формата %d
+  fmt.Printf("Age: %d years\n", age)
+  // TODO: Use fmt.Printf to print "Height: 0.75 meters" using the height variable and the %.2f format specifier
+  fmt.Printf("Height: %.2f meters\n", height)
+  // TODO: Используйте fmt.Printf для вывода строки об активности из инструкций, используя переменную isActive и спецификатор формата %t
+  fmt.Printf("Active: %t\n", isActive)
+  // TODO: Use fmt.Printf to print "Name type: string" using the name variable and the %T format specifier
+  fmt.Printf("Name type: %T\n", name)
+
+
+}
