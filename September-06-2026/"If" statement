@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Эта переменная представляет температуру в градусах Цельсия
+	temperature := 25
+	
+	// TODO: Напишите оператор if, который проверяет, больше ли температура 20
+	// Если условие истинно, выведите "It's warm today!"
+	if temperature > 20 {
+		fmt.Println("It's warm today!")
+	}
+	
+	fmt.Println("Weather check complete.")
+}
