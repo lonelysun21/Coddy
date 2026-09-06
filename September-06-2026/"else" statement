@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Эта переменная сообщает нам, идет ли на улице дождь
+	isRaining := true
+	
+	// TODO: Завершите оператор if-else ниже
+	if isRaining {
+		fmt.Println("Bring an umbrella!")
+	} else {
+		fmt.Println("Enjoy the sunshine!")
+	}
+	// Добавьте ваш оператор else здесь
+	
+}
