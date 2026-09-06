@@ -1,0 +1,22 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Эта переменная содержит текущее состояние погоды
+	weather := "rainy"
+	
+	// TODO: Завершите оператор if-else if-else, чтобы вывести соответствующее сообщение
+	if weather == "sunny" {
+		fmt.Println("Wear sunscreen!")
+	} else if weather == "rainy" {
+		fmt.Println("Bring an umbrella!")
+	} else if weather == "cold" {
+		fmt.Println("Wear a jacket!")
+	} else {
+		fmt.Println("Check the forecast!")
+	}
+	// Добавьте свой код здесь
+	
+	
+}
