@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Переменная внешней области видимости
+	message := "Hello from outer scope"
+	
+	isLoggedIn := true
+	
+	if isLoggedIn {
+		// TODO: Создайте новую переменную с именем 'message' и значением "Hello from inner scope"
+		message := "Hello from inner scope"
+		// Это выводит сообщение из внутренней области видимости
+		fmt.Println(message)
+	}
+	
+	// Это выводит сообщение из внешней области видимости
+	fmt.Println(message)
+}
