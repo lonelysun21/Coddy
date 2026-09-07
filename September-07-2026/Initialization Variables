@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main() {
+    // TODO: Инициализируйте эти переменные требуемыми значениями
+    var name string = "John"   // Инициализируйте значением "John"
+    var age int = 25     // Инициализируйте значением 25
+    var isStudent bool = true // Инициализируйте значением true
+    
+    // Этот код выведет переменные
+    fmt.Println("Name:", name)
+    fmt.Println("Age:", age)
+    fmt.Println("Is Student:", isStudent)
+}
