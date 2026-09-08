@@ -1,0 +1,22 @@
+package main
+
+import "fmt"
+
+func main() {
+	// Переменная, представляющая день недели
+	day := "Monday"
+	
+	// Оператор switch для проверки дня
+	switch day {
+	case "Monday":
+		fmt.Println("It's a weekday!")
+		// TODO: Добавьте ключевое слово `fallthrough` здесь, чтобы перейти к следующему case
+		fallthrough
+	case "Tuesday", "Wednesday", "Thursday", "Friday":
+		fmt.Println("Time to work!")
+	case "Saturday", "Sunday":
+		fmt.Println("It's the weekend!")
+	default:
+		fmt.Println("Invalid day!")
+	}
+}
